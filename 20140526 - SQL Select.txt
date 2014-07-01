@@ -1,0 +1,36 @@
+----------------------------------------------------------------------------------
+SELECT FUNCTION
+----------------------------------------------------------------------------------
+SELECT column_list / column_name
+FROM table
+WHERE condition
+
+----------------------------------------------------------------------------------
+DISTINCT - For multiple similar data rows
+----------------------------------------------------------------------------------
+SELECT DISTINCT column_list / column_name
+FROM table
+WHERE condition
+
+
+----------------------------------------------------------------------------------
+LIKE - For searching with keywords / keycharacters
+----------------------------------------------------------------------------------
+SELECT column_list / column_name
+FROM table
+WHERE condition
+LIKE '%query%' OR '_query_' OR [query]
+
+
+NOTE:
+% = 0 or more, left or right
+_ = only 1, left or right
+[] = character set
+
+
+----------------------------------------------------------------------------------
+UPDATE FUNCTION
+----------------------------------------------------------------------------------
+UPDATE table_name
+SET new_value
+WHERE condition
